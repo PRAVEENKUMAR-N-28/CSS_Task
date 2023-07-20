@@ -10,7 +10,7 @@
 }
 
 header{
-    position: fixed;
+    /* position: fixed; */
     top: 0px; left: 0px; right: 0px;
     background: white;
     padding: 1rem 9%;
@@ -86,7 +86,7 @@ div .Slogan span{
 
 .find{
     text-align: center;
-    margin: 1rem;
+    /* margin: 1rem; */
     padding:  1.5rem;
     font-size: 1.5rem;
     font-weight: bolder;
@@ -183,4 +183,61 @@ h3{
     background-color: gray;
     text-align: center;
    
+}
+
+@media only screen and (max-width:1077px ) {
+
+    header{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 1rem;
+       text-align: center;
+    }
+
+    .Slogan{
+        text-align: center;
+        margin-right: 6rem;
+    }
+    
+    .fir{
+        text-align: center;
+    }
+
+    .imglink{
+        display: flex;
+        flex-direction: column;
+    }
+    .Phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .loptop{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .m2{
+        
+        width: 350px;
+        height: 200px;
+    }
+    .m1{
+        width: 350px;
+        height: 200px;
+    }
+    .ipad{
+        display: flex;
+        flex-direction: column;
+    }
+    .ip2 {
+        width: 250px;
+        margin-left: 80px;
+    }
+    .ip1 {
+        width: 250px;
+        margin-left: 80px;
+    }
 }
