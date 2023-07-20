@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    outline: none; border:none;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+header{
+    position: fixed;
+    top: 0px; left: 0px; right: 0px;
+    background: white;
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bolder;
+    color:black;
+
+}
+header span{
+    font-size: 1rem;
+    color: gray;
+}
+
+header .navi a{
+    font-size: 1rem;
+    padding:0  1rem;
+    color: black;
+}
+
+header .navi a:hover{
+    color: gray;
+}
+
+ div .Slogan{
+    display: grid;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 2rem;
+    padding: 3rem;
+    color: gray;
+    text-align: center;
+}
+div .Slogan span{
+    color: black;
+    font-weight:bolder;
+    font-size: 4rem;
+
+}
+.Help{
+    margin-left: 5rem;
+    line-height: 1.5rem;
+}
+.Help a:hover {
+    text-decoration: underline;
+}
+
+.location{
+    
+    margin-right: 5rem;
+    line-height: 1.5rem;
+    display: grid;
+
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
+.fir{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.find{
+    text-align: center;
+    margin: 1rem;
+    padding:  1.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.imglink{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.im1 , .im2 {
+    width: 300px;
+    height: 300px;
+}
+
+.im2 {
+    width: 300px;
+    height: 300px;
+}
+
+.im3 {
+    width: 250px;
+    height: 300px;
+}
+
+.imglink{
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Phone{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 9%;
+}
+
+.i14{
+    width: 300px;
+    height: 500px;
+}
+
+.i14p{
+    width: 300px;
+    height: 500px;
+}
+
+.i14pm{
+    width: 300px;
+    height: 500px;
+}
+
+h3{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.m1{
+    margin-right: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.loptop{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 1rem 9%;
+    
+}
+
+.m2{
+    margin-left: 10px;
+    width: 550px;
+    height: 300px;
+}
+
+.ipad{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    padding: 1rem 9%;
+    
+}
+.ip2 {
+    width: 580px;
+    margin-left: 80px;
+}
+
+.footer{
+    font-size: 1.5rem; 
+    color: white;
+    background-color: gray;
+    text-align: center;
+   
+}
